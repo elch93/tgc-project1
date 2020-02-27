@@ -3,12 +3,18 @@ html {
     margin:0;
 }
 
-#main-box {
-    border: 3px solid gold;
-    height: 100vh;
-    
+#maincontainer {
+    width: 100vw;
 }
 
-#jumbo {
-    height: 90%;
+#mainwrap {
+    border: 10px brown solid;
+    width: 100vw;
+    height: 768px;
+}
+
+.scene {
+    height: 700px;
+    width: 400px;
+    border: black solid 3px;
 }
