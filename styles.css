@@ -1,10 +1,13 @@
 html {
     padding:0;
     margin:0;
+    background-color: black;
+    
 }
 
 #maincontainer {
     width: 100vw;
+    background-color: black;
 }
 
 #mainwrap {
@@ -16,9 +19,59 @@ html {
 .scene {
     height: 700px;
     width: 400px;
-    border: black solid 3px;
+    border: green solid 3px;
+    margin: 50px;
 }
 
-.jumbotron {
-    height: 100%;
+
+#chapt0 {
+    position: relative;
+    text-align: center;
+    left:auto;
+    right: auto; 
 }
+
+#chapt0 img {
+    width: 600px;
+}
+
+#chapt0 p {
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.para {
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+}
+
+.para2 {
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    animation-name: fadeIn2;
+    animation-fill-mode: forwards;
+    animation-duration: 10s;
+    
+}
+
+@keyframes fadeIn {
+    0%{opacity:0}
+    100%{display:1;}
+    
+}
+
+@keyframes fadeIn2 {
+    0%{opacity:0}
+    50%{opacity:0}
+    100%{display:1;}
+    
+}
+
