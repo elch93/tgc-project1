@@ -18,3 +18,7 @@ html {
     width: 400px;
     border: black solid 3px;
 }
+
+.jumbotron {
+    height: 100%;
+}
