@@ -3,3 +3,8 @@ html {
     margin:0;
 }
 
+#main-box {
+    border: 3px solid gold;
+    height: 100vh;
+    
+}
