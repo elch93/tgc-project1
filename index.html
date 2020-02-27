@@ -14,22 +14,25 @@
     <section class="container-fluid p-0">
         <main class="container-fluid p-0" id="main-box">
             <!-- nav -->
-            <div class="pos-f-t">
-                <!-- collapsed content -->
-                <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="bg-dark p-4">
-                    <h5 class="text-white h5">Chapter Select</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                    <h5 class="text-white h5">About this Page</h5>
-                    <h5 class="text-white h5">Share buttons here</h5>
-                    </div>
-                </div>
-                <nav class="navbar navbar-dark bg-dark">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                </nav>
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Chapter Select</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Website</a>
+      </li>
+    </ul>
+  </div>
+</nav>
         
             <!-- heroimg -->
             <div class="jumbotron jumbotron-fluid p-0 m-0" id="jumbo">
